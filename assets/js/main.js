@@ -66,7 +66,7 @@ const getNumber = (num) =>
     num = window.prompt("Versuche eine Zufahlszahl zwischen 0 - 10 zu erraten! Tippe dafür eine Ganzzahl zwischen 0 - 10 ein und klicke dann auf 'ok'!");
 
     let randNum = Math.floor(Math.random() * 11);
-    if(num > 0 && num < 10 && isNaN(num) === false)
+    if(num >= 0 && num <= 10 && isNaN(num) === false)
     {
         if(Number(num) === Number(randNum))
         {
