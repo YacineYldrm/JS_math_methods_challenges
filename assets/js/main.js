@@ -83,8 +83,7 @@ const getNumber = (num) =>
     {
         window.confirm("Keine gültige Eingabe!");
     }
-
-    location.reload();
+    // location.reload();
 }
 
-getNumber()
+getNumber();
